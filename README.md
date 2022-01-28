@@ -1,6 +1,6 @@
 # whack-runtime-wasmtime
 
-[Whack](https://github.com/flyingdice/whack) runtime implementation for [Wasmtime]https://wasmtime.dev/.
+[Whack](https://github.com/flyingdice/whack) runtime implementation for [Wasmtime](https://wasmtime.dev/).
 
 ## Status
 
