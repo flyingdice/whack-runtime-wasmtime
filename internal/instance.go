@@ -38,7 +38,7 @@ func (i *Instance) Call(name string, args ...interface{}) (interface{}, error) {
 	if function == nil {
 		return nil, errors.Errorf("exported function %s not found", name)
 	}
-	return function.Call(i.store, name, args)
+	return function.Call(i.store, args...)
 }
 
 // Close will free resources used by the underlying wasmtime instance.
