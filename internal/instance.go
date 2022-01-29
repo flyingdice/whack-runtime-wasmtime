@@ -141,6 +141,7 @@ func NewInstance(rt *Runtime, hostImports runtime.HostImports) (*Instance, error
 		wrn:      id,
 		instance: inst,
 		env:      rt.wasi,
+		store:    rt.store,
 	}, nil
 }
 
